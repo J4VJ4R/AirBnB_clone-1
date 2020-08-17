@@ -12,9 +12,9 @@ def do_pack():
     Function that generate a .tgz
     """
     time = datetime.utcnow().strftime('%Y%m%d%H%M%S')
-    file_name = "version/web_static_{}.tgz".format(time)
+    file_name = "versions/web_static_{}.tgz".format(time)
     try:
-        local("sudo mkdir -p version")
+        local("sudo mkdir -p versions")
         local("sudo tar -zcvf {} ./web_static".format(file_name))
         return file_name
     except:
