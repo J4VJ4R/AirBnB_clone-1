@@ -30,6 +30,6 @@ def do_deploy(archive_path):
     run("ln -sf {}/{} /data/web_static/current"
         .format(path, folder[0]))
     print("New versión deployed!")
-    return true
+    return True
 except:
     return False
