@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-distribute it awsome code
+distribute it awsome code me
 """
 from fabric.api import *
 from fabric.operations import run, put, sudo
