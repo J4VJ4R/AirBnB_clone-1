@@ -5,7 +5,7 @@ distribute it awsome code
 from fabric.api import *
 from fabric.operations import run, put, sudo
 import os
-env.hosts = ['1604-web-01', '1604-web-02']
+env.hosts = ['100.26.44.166', '18.205.235.240']
 
 
 def do_deploy(archive_path):
